@@ -15,7 +15,7 @@ Still needed from Carter:
 - [ ] LinkedIn and X post URLs → `media` in `src/content.ts` (the Media nav item is hidden until there is one).
 - [ ] Screenshots for project covers (still generated gradients).
 - [ ] Whether to make `mode-memory` public on GitHub.
-- [ ] Add Jan–Feb 2026 Claude Code activity from the other laptop: copy its `~/.claude/history.jsonl` to this Mac, then merge it into `scripts/activity.py`. This Mac's history starts 2026-02-24. — added 2026-10-04
+- [x] Add Jan–Feb 2026 Claude Code activity from the other laptop. Done 2026-10-28 from the private `claude-backup` repo: its per-day counts are in `scripts/claude-other-machines.json`, and the Claude grid now starts 2026-01-13. To refresh: `python3 scripts/activity.py <other history.jsonl>`.
 - [ ] Confirm the Eight Faces and venture fund pages are cleared with the client and Foundry before this branch goes live.
 
 Decisions made while building (change if wrong):
